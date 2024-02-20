@@ -1,0 +1,37 @@
+/*-=========================================== COLOR CONFIGURATIONS =============================================-*/
+
+/*----- BACKGROUND COLOR OF EACH NAVIGATION ITEM----*/
+#main-menu {
+    background: #000 !important;
+}
+/*---- BACKGROUND COLOR OF THE FULL MENU------*/
+#divMainMenu nav.showMobile:before {
+    background: rgba(0,0,0,0.8) !important;
+}
+
+/*---- COLOR OF LINKS and PLUS ICONS IN THE MENU -----*/
+
+.master-layout-1 #divMainMenu nav #main-menu > li > a,
+.master-layout-1 nav #main-menu {
+    color: #fff !important;
+}
+
+
+@media (hover: hover) and (pointer: fine) and (min-width: 1025px),
+screen and (-ms-high-contrast:none) and (min-width: 1025px) {
+    /*--- CONFIGURING HOVER COLORS ----*/
+    .master-layout-1 #divMainMenu nav #main-menu > li > a:hover,
+    .master-layout-1 #divMainMenu nav #main-menu > li > a.highlighted,
+    .master-layout-1 #divMainMenu nav #main-menu > li > a.active-link {
+        /*     box-shadow: 0 -10px 0 -6px #000 inset; */
+        /*----- THIS IS THE REGULAR UNDERLINE WE GET DURING DESKTOP VIEWS, ACTIVATE IT IF YOU WANT THIS DESIGN ----*/
+        box-shadow: 0 0 0 0 #000 inset;
+    }
+}
+
+/*------------------- COLOR CONFIGURATION OF SUBMENU'S ---------------*/
+
+.master-layout-1 #divMainMenu nav #main-menu ul a {
+    background-color: #fff;
+    color: #2a2a2a;
+}
