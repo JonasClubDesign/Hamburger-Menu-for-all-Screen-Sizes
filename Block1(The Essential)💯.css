@@ -99,3 +99,6 @@ screen and (-ms-high-contrast:none) and (min-width: 1025px) {
         z-index: 999999 !important;
     }
 }
+
+/*--------- This, by itself, converts ANY WIDGET MASTER 1 into a Hamburger menu site. -------------------*/
+
