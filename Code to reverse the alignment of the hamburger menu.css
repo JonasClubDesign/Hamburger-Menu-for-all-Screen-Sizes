@@ -1,0 +1,14 @@
+/*-------------------- Code to reverse the alignment of the hamburger menu (All Screen Sizes)-------------*/
+/*-------------------- THIS IS WHERE YOU CAN SWITCH THE POSITIONING OF THE MOBILE MENU -------------*/
+
+/* THE NORMAL BEHAVIOUR IS TO HAVE THE HAMBURGER MENU ON THE LEFT AND HAVE THE MENU OPEN FROM THE LEFT. IF YOU WANT IT TO OPEN FROM THE RIGHT, YOU WILL HAVE TO COPY THE CODE BELOW: */
+
+/*=== THIS CODE REVERSES THE ALIGNMENT OF THE HAMBURGER ICON ===*/
+ header .container-fluid {
+    display: flex !important;
+    flex-direction: row-reverse;
+}
+header .mobile-nav-btn {
+    text-align: right;
+    padding-right: 20px;
+}
