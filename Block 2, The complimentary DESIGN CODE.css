@@ -35,3 +35,11 @@ screen and (-ms-high-contrast:none) and (min-width: 1025px) {
     background-color: #fff;
     color: #2a2a2a;
 }
+
+.master-layout-1 #divMainMenu nav #main-menu ul a {
+    background-color: #fff;
+    color: #2a2a2a;
+}
+
+/*------This is where you assign the colors. The colors assigned here will affect both Mobile and Desktop.---------*/
+
