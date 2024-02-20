@@ -1,0 +1,23 @@
+/*=== THIS CODE REVERSES THE ALIGNMENT OF THE MENU POPOUT ===*/
+.fullmenu nav {
+    position: fixed;
+    left: auto !important;
+    right: -100px;
+}
+#divMainMenu nav:is(.showMobile), #divMainMenu nav.showMobile:before {
+    left: auto !important;
+    right: 0 !important;
+}
+#divMainMenu {
+    position: absolute;
+    left: auto !important;
+    right: 0 !important;
+}
+
+.icon-m.close-nav{
+    right: auto !important;
+    left: 0 !important;
+}
+.fullmenu nav .top-nav{
+    margin-left: auto !important;
+}
