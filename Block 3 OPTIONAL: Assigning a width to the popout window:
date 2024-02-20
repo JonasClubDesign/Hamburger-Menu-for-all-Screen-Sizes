@@ -1,0 +1,10 @@
+/*-=========================================== DESIGN STRUCTURE CONFIGURATION =============================================-*/
+@media (hover: hover) and (pointer: fine) and (min-width: 1025px),
+screen and (-ms-high-contrast:none) and (min-width: 1025px) {
+
+    /*----------------------------WIDTH OF THE MENU IN THE DESKTOP WITH RESPECT TO THE WIDTH OF THE VIEWPORT ----------------*/
+
+    .master-layout-1 #divMainMenu {
+        width: 90%;
+    }
+}
